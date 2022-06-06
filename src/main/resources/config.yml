@@ -1,0 +1,30 @@
+#
+# BDF Spigot Plugin Config File.
+#
+# Onlineで起動するかどうか ( true or false)
+# falseを選択した場合データはローカルに保存され、サーバが停止するとデータは破棄されます。
+# trueを選択した場合はデータは指定したリソースサーバから取得され同期されます。
+online_Mode: false
+
+# 以下 Online処理
+# ネットワーク上に登録するサーバ名
+server_name: "Debug"
+
+# 認証サーバのアドレス
+authorize_server_address: xxxxx.bdfps.net
+
+# リソースサーバのアドレス
+resource_server_address: xxxxx.bdfps.net
+
+# APIキー発行の手続き設定
+# アプリのIDとシークレットはアプリコンソールから取得できます。
+# URL https://access.bdfps.net/account/dashboard/my-apps
+# アプリのID
+authorize_client_id: here...
+
+#アプリのシークレット
+authorize_client_secret: here...
+
+# APIのレスポンスデータをコンソールに出力するかどうか
+# 不具合が発生した場合の検証用などに利用する
+api_response_logger: false

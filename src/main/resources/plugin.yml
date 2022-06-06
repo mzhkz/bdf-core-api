@@ -1,0 +1,12 @@
+name: "BDF"
+version: 1.1
+main: net.bdfps.api.spigot.BDF
+author: ManjiJapan
+softdepend: [ProtocolLib]
+loadbefore: [BDFGameLib]
+
+commands:
+  plus:
+    description: BDF plus account management.
+  admin:
+    description: BDF plus account management.
